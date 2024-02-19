@@ -1,0 +1,34 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Prost.Controls.Pages"
+      xmlns:Controls="clr-namespace:Prost.Controls" x:Class="Prost.Controls.Pages.MessagePage"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Message">
+    <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="350"/>
+                <ColumnDefinition Width="350"/>
+                <ColumnDefinition Width="350"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="300"/>
+                <RowDefinition Height="300"/>
+                <RowDefinition Height="300"/>
+            </Grid.RowDefinitions>
+            <Controls:LogBox Grid.Column="0" Grid.Row="0" Filter="Console"/>
+            <Controls:LogBox Grid.Column="1" Grid.Row="0" Filter="Error"/>
+            <Controls:LogBox Grid.Column="2" Grid.Row="0" Filter="Exception"/>
+            <Controls:LogBox Grid.Column="0" Grid.Row="1" Filter="TradeLog"/>
+            <Controls:LogBox Grid.Column="1" Grid.Row="1" Filter="APIOperation"/>
+            <Controls:LogBox Grid.Column="2" Grid.Row="1" Filter="System"/>
+            <Controls:LogBox Grid.Column="0" Grid.Row="2" Filter="Stopwatch"/>
+            <Controls:LogBox Grid.Column="1" Grid.Row="2" Filter="Timer"/>
+            <Controls:LogBox Grid.Column="2" Grid.Row="2" Filter="Test"/>
+        </Grid>
+    </ScrollViewer>
+</Page>

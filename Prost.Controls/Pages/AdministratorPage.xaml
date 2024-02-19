@@ -1,0 +1,53 @@
+﻿<Page x:Class="Prost.Controls.Pages.AdministratorPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Prost.Controls.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AdministratorPage">
+
+    <Grid>
+        <Label Content="Admin" HorizontalAlignment="Left" Margin="173,26,0,0" VerticalAlignment="Top"/>
+        <Button Content="Get Daily Data" Tag="GetDailyData" HorizontalAlignment="Left" Margin="529,193,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="Data Get" Tag="GetPostgres" HorizontalAlignment="Left" Margin="43,134,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="Test" Tag="Test" HorizontalAlignment="Left" Margin="43,201,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="AccountCheck" Tag="AccountCheck" HorizontalAlignment="Left" Margin="43,249,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="Buy" Tag="BuyTest" HorizontalAlignment="Left" Margin="43,293,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="Sell" Tag="SellTest" HorizontalAlignment="Left" Margin="43,333,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="BuyListCheck" Tag="BuyListCheck" HorizontalAlignment="Left" Margin="43,378,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="AccountCheck_Detail" Tag="AccountCheck_Detail" HorizontalAlignment="Left" Margin="134,239,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="MultiRequest" Tag="MultiRequest" HorizontalAlignment="Left" Margin="134,283,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="CreateTest1" Tag="CreateTest1" HorizontalAlignment="Left" Margin="529,62,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="InformationChecker" Tag="InformationChecker" HorizontalAlignment="Left" Margin="134,323,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="BuySellCheck" Tag="BuySellCheck" HorizontalAlignment="Left" Margin="134,368,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="GetDailyList" Tag="GetDailyList" HorizontalAlignment="Left" Margin="529,154,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="MinbongTest" Tag="MinbongTest" HorizontalAlignment="Left" Margin="241,303,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="MinbongLoop" Tag="MinbongLoop" HorizontalAlignment="Left" Margin="529,228,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="LoopStop" Tag="LoopStop" HorizontalAlignment="Left" Margin="146,137,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="Exit" Tag="Exit" HorizontalAlignment="Left" Margin="672,390,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="TickLoop" Tag="TickLoop" HorizontalAlignment="Left" Margin="529,305,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="RequestBasic" Tag="RequestBasic" HorizontalAlignment="Left" Margin="134,80,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="Logout" Tag="Logout" HorizontalAlignment="Left" Margin="146,191,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="BasicLoop" Tag="BasicLoop" HorizontalAlignment="Left" Margin="529,340,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="chegul_test" Tag="chegul_test" HorizontalAlignment="Left" Margin="241,123,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="mechegul_test" Tag="mechegul_test" HorizontalAlignment="Left" Margin="241,154,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="InsertSampleLogic" Tag="InsertSampleLogic" HorizontalAlignment="Left" Margin="649,62,0,0" VerticalAlignment="Top" Width="112" Click="Button_Click"/>
+        <Button Content="Restart" Tag="Restart" HorizontalAlignment="Left" Margin="672,355,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Label Content="Batch" HorizontalAlignment="Left" Margin="555,107,0,0" VerticalAlignment="Top"/>
+        <Button Content="AskBidBatch" Tag="AskBidBatch" HorizontalAlignment="Left" Margin="529,271,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="AccountJudge" Tag="AccountJudge" HorizontalAlignment="Left" Margin="241,353,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="Bug1Test" Tag="Bug1Test" HorizontalAlignment="Left" Margin="340,123,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="LoadRtData" Tag="LoadRtData" HorizontalAlignment="Left" Margin="340,80,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="test1" Tag="test1" HorizontalAlignment="Left" Margin="241,390,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="rtmove" Tag="rtmove" HorizontalAlignment="Left" Margin="520,375,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="opt20001" Tag="opt20001" HorizontalAlignment="Left" Margin="340,273,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="opt20003" Tag="opt20003" HorizontalAlignment="Left" Margin="340,298,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="opt20004" Tag="opt20004" HorizontalAlignment="Left" Margin="340,323,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="opt20005" Tag="opt20005" HorizontalAlignment="Left" Margin="340,348,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="opt20006" Tag="opt20006" HorizontalAlignment="Left" Margin="340,375,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="opt10081" Tag="opt10081" HorizontalAlignment="Left" Margin="340,400,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="StartHeartBit" Tag="StartHeartBit" HorizontalAlignment="Left" Margin="241,234,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+    </Grid>
+</Page>

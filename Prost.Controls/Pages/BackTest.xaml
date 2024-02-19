@@ -1,0 +1,22 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Prost.Controls.Pages"
+      xmlns:Controls="clr-namespace:Prost.Controls" x:Class="Prost.Controls.Pages.BackTest"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="BackTest">
+
+    <Grid>
+        <Button Content="ExcutePython" Tag="ExcutePython" HorizontalAlignment="Left" Margin="53,399,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <Button Content="LoadPython" Tag="LoadPython" HorizontalAlignment="Left" Margin="153,399,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2"/>
+
+        <Controls:LogBox HorizontalAlignment="Left" Height="326" Margin="582,0,-141,0" VerticalAlignment="Top" Width="359" Filter="PythonLog"/>
+        <TextBox x:Name="tb_python" HorizontalAlignment="Left" Height="343" Margin="53,35,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="272"/>
+        <Controls:LogBox HorizontalAlignment="Left" Height="347" Margin="582,331,-141,-228" VerticalAlignment="Top" Width="359" Filter="Exception"/>
+        <Button Content="Refresh" Tag="Refresh" HorizontalAlignment="Left" Margin="250,399,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_3"/>
+
+    </Grid>
+</Page>

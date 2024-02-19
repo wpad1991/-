@@ -1,0 +1,17 @@
+﻿<Grid x:Class="Prost.Controls.LogBox"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Prost.Controls"
+             mc:Ignorable="d" 
+                      d:DesignHeight="450" d:DesignWidth="300">
+    <Grid.RowDefinitions>
+        <RowDefinition Height="1*"/>
+        <RowDefinition Height="10*"/>
+    </Grid.RowDefinitions>
+    <Border Grid.Row="0" Background="#0b50a1">
+        <Label Name="lb_Title" Foreground="White" HorizontalContentAlignment="Center" VerticalAlignment="Center" Content="EventBox" FontFamily="Tahoma" FontSize="10" Padding="0" Margin="0"/>
+    </Border>
+    <TextBox x:Name="tb_Main" Grid.Row="1" FontFamily="Tahoma" FontSize="12" IsReadOnly="True" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Auto"/>
+</Grid>
